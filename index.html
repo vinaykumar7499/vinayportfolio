@@ -44,10 +44,10 @@
                 <span id="element"></span>
                 <div class="button">
                     <a href="image/VinayResume .pdf" download>
-                        <button class="btn" >Download resume</button></a>
-                        <a href="https://github.com/vinaykumar7499">
-                            <button class="btn">visit github</button></a>
-                       
+                        <button class="btn">Download resume</button></a>
+                    <a href="https://github.com/vinaykumar7499">
+                        <button class="btn">visit github</button></a>
+
 
                 </div>
             </div>
@@ -165,22 +165,24 @@
                     </div>
 
                     <div class="contactform">
-                        <form action="">
+                        <form   action="https://formspree.io/f/xwpejogo"
+                        method="POST"
+                      >
                             <h2>send meesage</h2>
                             <div class="inputbox">
-                                <input type="text" required="required">
+                                <input type="text"required="required"id="name" name="name">
                                 <span>full name</span>
                             </div>
                             <div class="inputbox">
-                                <input type="text" required="required">
+                                <input type="text" required="required" id="email" name="email">
                                 <span>Email</span>
                             </div>
                             <div class="inputbox">
-                                <textarea required></textarea>
+                                <textarea required="required" id="text" name="text"></textarea>
                                 <span>type your message...</span>
                             </div>
                             <div class="inputbox">
-                                <button class="">send</button>
+                                <button onclick="task()" class="">send</button>
                             </div>
                     </div>
                     </form>
@@ -236,16 +238,20 @@
 
 
 
+    <!-- Include SMTP.js Library -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-
+    <!-- Typed.js Library -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
+
+    <!-- JavaScript to Send Email and Animation -->
     <script>
         var typed = new Typed('#element', {
-            strings: ['web Developer', '&amp; Pharmacist.'],
+            strings: ['Web Developer', 'Pharmacist.'],
             typeSpeed: 60,
         });
     </script>
+
 </body>
 
 </html>

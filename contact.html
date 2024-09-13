@@ -75,22 +75,24 @@
                 </div>
 
                 <div class="contactform">
-                    <form action="">
+                    <form   action="https://formspree.io/f/xwpejogo"
+                    method="POST"
+                  >
                         <h2>send meesage</h2>
                         <div class="inputbox">
-                            <input type="text" required="required">
+                            <input type="text" id="name" required="required" name="name">
                             <span>full name</span>
                         </div>
                         <div class="inputbox">
-                            <input type="text" required="required">
+                            <input type="text" id="email" required="required" name="email">
                             <span>Email</span>
                         </div>
                         <div class="inputbox">
-                            <textarea required></textarea>
+                            <textarea required="required" id="text" name="text"></textarea>
                             <span>type your message...</span>
                         </div>
                         <div class="inputbox">
-                            <button class="">send</button>
+                            <button class="" onclick="task()">send</button>
                         </div>
                 </div>
                 </form>
@@ -136,6 +138,8 @@
             </div>
         </div>
     </footer>
+<script></script>
+
 
 </body>
 
