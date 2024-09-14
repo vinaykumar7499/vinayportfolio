@@ -582,6 +582,7 @@ h5 {
         flex-direction: row;
     }
     .project-card {
+        
         border: 1px solid #ddd;
         border-radius: 8px;
         overflow: hidden;
@@ -607,7 +608,7 @@ h5 {
       
       .project-title {
         font-size: 1.5rem;
-        color: #333;
+        color: white;
       }
       
       .project-description {
