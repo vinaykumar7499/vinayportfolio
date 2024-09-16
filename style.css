@@ -745,3 +745,92 @@ h5 {
         margin-bottom: 20px;
     }
 }
+
+
+
+
+
+
+
+
+.cards-sec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.cards-grp {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2% 3%;
+}
+
+.cards-grp a {
+    margin: 1rem 0;
+    display: block;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.cards-grp a:hover {
+    color: rgb(255, 213, 0);
+}
+
+.cards-grp p {
+    line-height: 1.5rem;
+}
+
+.cards-grp span {
+    font-size: 4rem;
+}
+
+.card1 {
+    background-color:#746f86 ;   
+     width: 50%;
+     text-align: justify;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1% 2rem;
+    height: 330px;
+
+}
+
+.card2 {
+    background-color:#d48eb7 ;   
+    text-align: justify;
+    width: 50%;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1% 2rem;
+    height: 330px;
+
+}
+
+.card3 {
+    background-color: var(--color-darkgreen);
+    height: 320px;
+    width: 50%;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1% 2rem;
+    height: 330px;
+
+}
+
+.card4 {
+    background-color: var(--color-red);
+    width: 50%;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1% 2rem;
+    height: 330px;
+
+}
